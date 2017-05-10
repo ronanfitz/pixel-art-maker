@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ccc;
+}
+
+h3 {
+  color: #999;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 10px 0 0 20px;
+}
+
+main {
+  background-color: #e5e5e5;
+  border-radius: 20px;
+  margin: 20px auto 0;
+  padding: 20px;
+  width: 800px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  height: 14px;
+  width: 14px;
+}
+
+.brushCurrentColor {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px 0 0 10px;
+  width: 100px;
+}
+
+.color {
+  border-radius: 50%;
+  height: 30px;
+  margin: 5px 5px 0 0;
+  width: 30px;
+}
+
+.red {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.black {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.blue {
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+
+.green {
+  background-color: #00ff00;
+  border-color: #00ff00;
+}
+
+.white {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.yellow {
+  background-color: #ffff00;
+  border-color: #ffff00;
+}
+
+#canvas, #palette {
+  display: flex;
+  flex-wrap: wrap;
+}
